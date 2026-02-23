@@ -858,4 +858,33 @@ section {
 .social-icons a:hover {
   color: #fff;
   transform: translateY(-3px);
+
+}
+/* ===== RESPONSIVE FIX ===== */
+
+@media (max-width: 992px) {
+  .projects-grid {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
 }
